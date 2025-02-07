@@ -1,0 +1,8 @@
+[{
+    "label": "Text color",
+    "name": "text_color",
+    "type": "color",
+    "default": {
+        "color": "#333"
+    }
+}]
