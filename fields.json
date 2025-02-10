@@ -5,4 +5,19 @@
     "default": {
         "color": "#333"
     }
-}]
+},
+{
+    "name": "theme_font",
+    "label": "Fuente del Tema",
+    "type": "font",
+    "default": {
+      "font_set": "default",
+      "color": "#333333"
+    }
+  },
+  {
+    "name": "theme_accent_color",
+    "label": "Color de Acento",
+    "type": "color",
+    "default": "#ff6600"
+  }]

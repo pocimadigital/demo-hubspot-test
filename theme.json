@@ -1,4 +1,12 @@
 {
     "label": "Willow Theme",
-    "preview": "./templates/basic-page.html"
-}
+    "preview_path" : "./templates/basic-page.html",
+    "screenshot_path" : "./images/test-img.jpg",
+    "enable_domain_stylesheets" : false,
+    "is_available_for_new_content" : true,
+    "author" : {
+      "name" : "Sergio Piedrabuena",
+      "email" : "sergio@pocimadigital.com"
+    },
+    "hide_all_default_modules" : true
+  }

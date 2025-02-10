@@ -1,0 +1,12 @@
+<div class="team-container">
+    <div class="team-grid">
+        {% for member in module.team_members %}
+        <div class="team-member">
+            <img src="{{ member.image.src }}" alt="{{ member.image.alt }}">
+            <h3>{{ member.name }}</h3>
+            <p class="role">{{ member.role }}</p>
+            <p class="description">{{ member.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

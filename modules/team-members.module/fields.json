@@ -1,0 +1,90 @@
+[ {
+  "id" : "2f981030-c71e-299c-6dca-b1a695197c92",
+  "name" : "team_members",
+  "label" : "Grupo de campos",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 5,
+    "sorting_label_field" : "e94501cd-5164-c96b-0ee4-b011eee27864",
+    "default" : 1
+  },
+  "children" : [ {
+    "id" : "e94501cd-5164-c96b-0ee4-b011eee27864",
+    "name" : "image",
+    "label" : "Imagen",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://49174516.fs1.hubspotusercontent-na1.net/hubfs/49174516/test-img-2.jpg",
+      "alt" : "test-img-2",
+      "loading" : "lazy",
+      "width" : 600,
+      "height" : 392,
+      "max_width" : 600,
+      "max_height" : 392
+    }
+  }, {
+    "id" : "4cbd742e-f779-aef0-095f-7aac62694872",
+    "name" : "nameVar",
+    "label" : "Texto",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "nameVar",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Nombre"
+  }, {
+    "id" : "83707c84-3214-1c89-3a5f-f2a8bad1e3ef",
+    "name" : "role",
+    "label" : "Texto",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "role",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Rol"
+  }, {
+    "id" : "7bee9b6e-6f76-bbb0-a893-9c1726656551",
+    "name" : "description",
+    "label" : "Texto enriquecido",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "lorem lorem lorem"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://49174516.fs1.hubspotusercontent-na1.net/hubfs/49174516/test-img-2.jpg",
+      "alt" : "test-img-2",
+      "loading" : "lazy",
+      "width" : 600,
+      "height" : 392,
+      "max_width" : 600,
+      "max_height" : 392
+    },
+    "nameVar" : "Nombre",
+    "role" : "Rol",
+    "richtext_field" : "lorem lorem lorem"
+  } ]
+} ]

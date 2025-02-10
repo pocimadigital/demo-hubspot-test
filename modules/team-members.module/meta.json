@@ -1,0 +1,7 @@
+{
+  "global" : false,
+  "content_types" : [ "KNOWLEDGE_BASE", "QUOTE_TEMPLATE", "QUOTE", "MEMBERSHIP", "LANDING_PAGE", "CASE_STUDY", "SITE_PAGE", "CUSTOMER_PORTAL", "WEB_INTERACTIVE", "BLOG_LISTING", "BLOG_POST" ],
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 185970328421,
+  "is_available_for_new_content" : true
+}

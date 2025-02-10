@@ -1,0 +1,57 @@
+[ {
+  "id" : "55c44026-e63f-7ed4-8664-fc8fa75aab1a",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : { }
+}, {
+  "id" : "85508942-3195-8963-2b17-ea3b983bedff",
+  "name" : "image_field",
+  "label" : "Imagen",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://49174516.fs1.hubspotusercontent-na1.net/hubfs/49174516/test-img-1.jpg",
+    "alt" : "test-img-1",
+    "loading" : "lazy",
+    "width" : 600,
+    "height" : 392,
+    "max_width" : 600,
+    "max_height" : 392
+  }
+}, {
+  "id" : "2494686c-90b0-a9c5-a87f-6a3c46979857",
+  "name" : "text_field",
+  "label" : "Texto",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "title",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Titulo"
+}, {
+  "id" : "373249aa-b0a1-7d1a-a0e9-f91fbc2dc79a",
+  "name" : "richtext_field",
+  "label" : "Texto enriquecido",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "<div>\n<div><span>&nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur <strong>adipisicing </strong>elit. Quas praesentium <em>facilis </em>esse quidem architecto similique, maiores nesciunt cupiditate vel voluptatem molestiae illo alias sint eius <span style=\"text-decoration: underline;\">reprehenderit </span>perferendis obcaecati, a eaque.</span></div>\n</div>"
+} ]

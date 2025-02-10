@@ -15,13 +15,16 @@
     {{ standard_header_includes }}
   </head>
   <body>
+    
+    {% global_partial path="./partials/header.html" %}
     <div class="page-wrap">
-      {% global_partial path="./partials/header.html" %}
       
-      <section class="main-section">
-        {% module "main_image" path="@hubspot/image", label="Imagen Principal" %}
-        {% module "page_template_rich_text" path="@hubspot/rich_text" label="Texto Principal" %}
-      </section>
+      {% dnd_area "dnd_area"
+        label="Main section"
+      %}
+      
+
+      {% end_dnd_area %}
 
     </div>
 

@@ -8,6 +8,12 @@
     padding: 0;
     background-color: #eee;
   }
+  body {
+    font-family: {{ theme.theme_font.font }};
+    color: {{ theme.theme_font.color }};
+  }
+
+
   
   .page-wrap {
     color: {{theme.text_color.color}};
@@ -21,14 +27,13 @@
     padding: 40px;
   }
   
-  header {
+  header, footer {
     text-transform: uppercase;
     letter-spacing: .3em;
-    background-color: #eee;
-    background: url('{{ get_asset_url('../images/test-img.jpg') }}') 0 39% no-repeat #333;
-    background-size: cover;
     color: #fff;
     padding: 1em 50% 1em 2em;
-    margin-bottom: 3em;
+  }
+  header, footer {
+    background-color: {{ theme.theme_accent_color }};
   }
   

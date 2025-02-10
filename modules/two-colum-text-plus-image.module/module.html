@@ -1,0 +1,15 @@
+<!--
+  templateType: "module"
+  label: "Texto e Imagen"
+  isAvailableForNewContent: true
+-->
+
+<div class="custom-two-column">
+    <div class="image-column">
+        <img src="{{ module.image_field.src }}" alt="{{ module.image.alt }}">
+    </div>
+    <div class="text-column">
+        <h2>{{ module.text_field }}</h2>
+        <h2>{{ module.richtext_field }}</h2>
+    </div>
+</div>
